@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Assesment</title>
+
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Log in</h1>
+            <hr>
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+            </div>
+            <p>or login using email</p>
+        </div>
+        <form action="" onsubmit="getInfo()" id="form-input">
+            <label for="username">Email</label><br>
+            <input type="Email" name="email" id="username" required> <br>
+            <label for="userName">Password</label><br>
+            <input type="password" name="password" id="password" required><br>
+            <div class="f-password">
+                <input type="checkbox" value="Remember-me">
+                <label for="checkbox">Remember Me</label>
+                <span><a href="#" class="space" id="f-pass">Forgot Password?</a></span>
+            </div>
+            <input type="submit" value="Submit" id="submit" ><br>
+            <p id="result"></p>
+        </form>
+
+
+       
+        <a href="#">Privacy Policy</a>
+        <span><a href="#" class="space">Terms & Condition</a></span>
+    </div>
+
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/00cd9e6b02.js" crossorigin="anonymous"></script>
+</body>
+</html>
